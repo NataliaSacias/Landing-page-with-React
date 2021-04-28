@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const Card = props => {
+const Card = props => {
 	return (
 		<div className="card col-12 col-md-4 p-2">
 			<img
@@ -26,3 +26,5 @@ Card.propTypes = {
 	buttonUrl: PropTypes.string,
 	buttonLabel: PropTypes.string
 };
+
+export default Card;
